@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Burç Hesaplama Uygulaması</title>
+  </head>
+  <body>
+    <h1>Burç Hesaplama Uygulaması</h1>
+    <form>
+      <label for="gun">Doğum Günü:</label>
+      <input type="number" id="gun" name="gun" min="1" max="31" required>
+      <label for="ay">Doğum Ayı:</label>
+      <input type="number" id="ay" name="ay" min="1" max="12" required>
+      <label for="yil">Doğum Yılı:</label>
+      <input type="number" id="yil" name="yil" min="1900" max="2099" required>
+      <button type="button" onclick="burcHesapla()">Giriş Yap</button>
+    </form>
+
+    <script src="burc-hesapla.js"></script>
+  </body>
+</html>
